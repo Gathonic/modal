@@ -1,0 +1,85 @@
+
+body {
+    background-color: rgb(110, 108, 108);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.button {
+    background-color:white;
+    padding: 1em 2em;
+    color: black;
+    border:0;
+}
+
+.modal {
+    display:none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: grey;
+}
+
+.modal-content {
+    background-color: rgb(224, 216, 216);
+    margin: 15% auto;
+    width:60%;
+    font-size: 16px;
+}
+
+.tickSymbol {
+    color: green;
+    float: left;
+    font-size: 30px;
+}
+
+.button-modal {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 40%;
+}
+
+.cancelButton {
+  background-color: white;
+  color: black;
+  
+}
+
+.continueButton {
+  background-color: black; 
+  color: white; 
+}
+
+
+.modal-header {
+background-color:  rgb(224, 216, 216);
+padding: 10px;
+
+}
+
+.modal-body{
+    padding: 10px;
+}
+
+.modal-footer {
+padding: 10px;
+margin: 10px;
+}
+
+.modal-header h2 {
+    margin: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .button-modal, .modal-content {
+      width: 100%;
+    }
+}
