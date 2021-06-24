@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <button id ="modalBtn" class ="button">Click Submit</button>
+   <!-- <button id ="modalBtn" class ="button">Click Submit</button>
 
     <div id= "modalView" class="modal">
         <div class="modal-content">
@@ -31,6 +31,57 @@
     </div>
     
 
-    <script src ="modal1.js"></script>
+    <script src ="modal1.js"></script> -->
+
+    <form>
+        <label for ="firstname">First Name</label>
+        <input type ="text" id="firstname" name ="firstname" required>
+    
+        <label for ="lastname">Last Name</label>
+        <input type ="text" id="lastname" name ="lastname" required>
+    <p>Select a race:</p>
+
+        <div>
+            <input type="radio" name="run" id="funrun" value="funrun">
+            <label for="funrun">Fun Run 5k</label>
+        </div>
+        <div>
+            <input type="radio" name="run" id="halfmarathon" value="halfmarathon">
+            <label for="halfmarathon">Half Marathon</label>
+
+        </div>
+
+        <div>
+            <input type="radio" name="run" id="fullmarathon" value="fullmarathon">
+            <label for="fullmarathon">Fun Run 5k</label>
+        </div>
+
+        <label for ="email">Email</label>
+        <input type ="email" id="email" name ="email" required>
+
+        <label for ="password">Password</label>
+        <input type ="password" id="password" name ="password" required>
+        
+        <div>
+            <label for ="age">Select your age group</label>
+            <select name="agegroup" id="age">
+                <option value="teens">Under 18</option>
+                <option value="mid">18-29</option>
+                <option value="senior">Over 30</option>
+            </select>
+        </div>
+
+        <button type="submit">Register!</button>
+
+        
+
+        
+    
+
+       
+    </form>
 </body>
 </html>
+
+
+
